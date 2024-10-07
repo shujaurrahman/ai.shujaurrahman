@@ -85,8 +85,8 @@ Contributions to improve the AI Chat API are welcome! If you have suggestions or
 
 For inquiries or feedback, please reach out to:
 
-- **Shujaur Rahman**  
-- Email: [your_email@example.com](mailto:your_email@example.com)  
+- **Shuja ur Rahman**  
+- Email: [discuss@shujaurrahman.me](mailto:shujaurrehman210@gmail.com)  
 - Portfolio: [shujaurrahman.me](https://shujaurrahman.me)
 
 ---
