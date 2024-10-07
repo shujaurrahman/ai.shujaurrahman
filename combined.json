@@ -1,0 +1,104 @@
+{
+    "profile": {
+      "image": "http://localhost/shujaurrahman.me/content/profile/shuja.jpg",
+      "name": "Shuja Ur Rahman",
+      "description": "Creative technologist, Master coder, API wrangler, JavaScript ninja, PHP wizard, and tech geek. Pursuing MCA at AMU."
+    },
+    "sections": [
+      {
+        "title": "Develop Innovative Web Applications and Integrate APIs",
+        "content": [
+          "I have developed dynamic web applications, such as the AMU PYQ Papers platform, which allows students to access previous year question papers with a user-friendly interface. This project employs Ajax for seamless frontend-backend communication, enhancing responsiveness and interactivity.",
+          "Incorporating APIs into web applications is one of my core strengths. For instance, my 'Currently-Playing on Spotify' project integrates the Spotify API to display the currently playing track in real-time without page reloads."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "date": "Present",
+        "degree": "Master of Computer Application",
+        "institution": "Aligarh Muslim University",
+        "cgpa": "8.6 CGPA"
+      },
+      {
+        "date": "2022",
+        "degree": "Bachelor of Computer Application",
+        "institution": "Aligarh Muslim University",
+        "cgpa": "8.1 CGPA"
+      }
+    ],
+    "projects": [
+      {
+        "title": "AMU PYQ Papers",
+        "date": "March 2024",
+        "description": "A dynamic web application for students to access previous year question papers using Ajax for seamless interaction."
+      },
+      {
+        "title": "Currently Playing on Spotify",
+        "date": "Jan 2024",
+        "description": "Displays currently playing Spotify track using Ajax, integrated with web pages for real-time music updates."
+      }
+    ],
+    "technicalSkills": {
+      "languages": ["PHP", "Python", "SQL", "Java", "C", "C++", "HTML", "CSS", "JavaScript (ReactJs)"],
+      "developerTools": ["MySQL", "Docker", "Web Sockets", "Jupyter Notebook", "Google Cloud", "Linux", "Bootstrap"]
+    },
+    "certifications": [
+      {
+        "title": "The Complete JavaScript Course 2024: From Zero to Expert",
+        "institution": "Udemy",
+        "date": "June 2024"
+      },
+      {
+        "title": "Google Cloud Study Jams Labs Certificate",
+        "institution": "Google Cloud",
+        "date": "Feb 2024"
+      }
+    ],
+    "quotes": [
+      {
+        "date": "09-09-2024",
+        "quote": "If you love someone you should tell ‘em that you love ‘em. Tell ‘em now ‘cause it might be too late.",
+        "author": "Diary"
+      },
+      {
+        "date": "15-08-2024",
+        "quote": "To have ruined one's self over poetry is an honour.",
+        "author": "Oscar Wilde"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "text",
+        "content": "Last week, I visited Delhi and spent quality time with my loved ones. We indulged in delicious food at a cozy restaurant that had a beautiful ambiance.",
+        "location": "Delhi, India",
+        "date": "2024-09-15"
+      },
+      {
+        "type": "images",
+        "alt_texts": [
+          "Cozy restaurant ambiance with family",
+          "Family sharing joyful moments over dinner"
+        ],
+        "location": "Delhi, India",
+        "date": "2024-09-15"
+      }
+    ],
+    "contact": {
+      "email": "discuss@shujaurrahman.me",
+      "github": "https://github.com/shujaurrahman?tab=repositories"
+    },
+    "links": [
+      {
+        "href": "https://www.goodreads.com/book/show/10959.Sophie_s_World",
+        "text": "Sophie’s World",
+        "domain": "goodreads.com"
+      },
+      {
+        "href": "https://open.spotify.com/playlist/5iljbObyl7HDEbQV3JY2tQ?si=4f61c38a06a5432c",
+        "text": "Current",
+        "domain": "spotify.com"
+      }
+    ]
+  }
+  
