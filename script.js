@@ -14,38 +14,36 @@ window.onload = function() {
     }
 };
 
-// Handle form submission and send message to AI
 form.onsubmit = (e) => {
     e.preventDefault(); // Prevent form from submitting normally
 
     let userMessage = inputField.value.trim(); 
     if (userMessage !== '') {
-        // Remove the initial text as soon as the user sends the first message
         if (initialText) {
             initialText.remove(); // Remove initial message
         }
 
-        // Show user message in chat box
         appendMessage('You', userMessage, 'user');
 
-        // Send the user message to PHP backend via AJAX
+        // Create the GET request to Vercel API ai-api running as proxy to bypass infinity free cros
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", "chat.php", true);
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.open("GET", `https://ai-api-vert.vercel.app/api/chat?message=${encodeURIComponent(userMessage)}`, true);
         xhr.onload = () => {
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                // Assuming your backend returns JSON with a "message" property
                 let aiResponse = JSON.parse(xhr.responseText).message;
-                appendMessage('AI', aiResponse, 'ai');  // Show formatted AI response in chat box
+                appendMessage('AI', aiResponse, 'ai');  // Show AI response in chat
+            } else {
+                appendMessage('AI', 'Error fetching response from AI.', 'ai'); // Handle errors gracefully
             }
         };
-
-        // Send the message to the backend
-        xhr.send("message=" + encodeURIComponent(userMessage));
+        
+        // Send GET request
+        xhr.send();
 
         inputField.value = ""; // Clear input field
     }
 };
+
 
 // Append message to chat box and save to localStorage
 function appendMessage(sender, message, messageClass) {
