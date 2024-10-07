@@ -78,7 +78,7 @@ This implementation is a prototype. Future enhancements will focus on:
 
 ## Contributing
 
-Contributions to improve the AI Chat API are welcome! If you have suggestions or find any issues, please create a pull request or open an issue in the repository.
+Contributions to improve the AI interface chat are welcome! If you have suggestions or find any issues, please create a pull request or open an issue in the repository.
 
 
 ## Contact
@@ -91,4 +91,4 @@ For inquiries or feedback, please reach out to:
 
 ---
 
-Thank you for checking out the AI Chat API project!
+Thank you for checking out this project!
