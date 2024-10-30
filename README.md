@@ -1,7 +1,7 @@
 
-# AI Chat API
+# AI Chat 
 
-Welcome to the **AI Chat API** project! This API is designed to provide intelligent responses based on the context of the portfolio website of **Shujaur Rahman**. It utilizes the Vercel-hosted AI service as a proxy to fetch responses from the Hugging Face API, enhancing user interaction through tailored and relevant replies.
+Welcome to the **AI Chat ** project! This  is designed to provide intelligent responses based on the context of the portfolio website of **Shujaur Rahman**. It utilizes the Vercel-hosted AI-API service as a proxy to fetch responses from the Hugging Face API, enhancing user interaction through tailored and relevant replies.
 
 ## Table of Contents
 
@@ -18,11 +18,11 @@ Welcome to the **AI Chat API** project! This API is designed to provide intellig
 
 ## Overview
 
-The **AI Chat API** is hosted at [ai.shujaurrahman.me](https://ai.shujaurrahman.me) and is focused on creating an interactive chat experience for users seeking information about Shujaur Rahman's work and expertise. The API employs a custom context defined in a JSON file to ensure the AI's responses are relevant and meaningful.
+The **AI Chat ** is hosted at [ai.shujaurrahman.me](https://ai.shujaurrahman.me) and is focused on creating an interactive chat experience for users seeking information about Shujaur Rahman's work and expertise. employs a custom context defined in a JSON file to ensure the AI's responses are relevant and meaningful.
 
 ## Purpose
 
-The primary goal of this API is to provide an engaging chat interface where users can ask questions and receive informative answers that reflect the knowledge and personality of Shujaur Rahman.
+The primary goal of this is to provide an engaging chat interface where users can ask questions and receive informative answers that reflect the knowledge and personality of Shujaur Rahman.
 
 ## How It Works
 
